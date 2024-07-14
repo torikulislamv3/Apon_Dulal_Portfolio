@@ -5,7 +5,7 @@ export const Footer = () => {
     <footer className="footer border text-base-content p-10">
     <nav>
       <h1 className="text-3xl font-bold text-[#1877F2] mb-5">MD APON DULAL</h1>
-      <p className="max-w-64 md:max-w-72 lg:max-w-80">
+      <p className="max-w-64 md:max-w-72 lg:max-w-80z">
       I am among the top SEO sellers in Bangladesh One who 
        has more than 3 years of training career. As an SEO 
         Specialist in Bangladesh, i am a proud member of 

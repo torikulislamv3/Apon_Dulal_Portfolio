@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom"
+
 export const Navbar = () => {
   return (
     <div className="navbar bg-white shadow-2xl">
@@ -30,10 +32,18 @@ export const Navbar = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
+      <NavLink>
       <li className="text-2xl font-semibold hover:text-[#1877F2] mr-6">Home</li>
+      </NavLink>
+      <NavLink>
       <li className="text-2xl font-semibold hover:text-[#1877F2] mr-6">About</li>
+      </NavLink>
+      <NavLink>
       <li className="text-2xl font-semibold hover:text-[#1877F2] mr-6">Service</li>
+      </NavLink>
+      <NavLink>
       <li className="text-2xl font-semibold hover:text-[#1877F2]">Blog</li>
+      </NavLink>
     </ul>
   </div>
   <div className="navbar-end">
